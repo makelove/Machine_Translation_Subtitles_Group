@@ -5,11 +5,13 @@
     - 机翻字幕组
     - AI机翻字幕组?
     - AI字幕组 ?
+    - 深度学习字幕组 ？
 
 
 - 特点
     - 识别之前的翻译作品,经验，更合理地翻译名词术语
     - 最快的速度，第一时间翻译，并上传
+    - 深度学习，语音识别
 
 
 
@@ -25,3 +27,13 @@
     - 英语
     - 日语 ？？
     - 
+- 资源下载
+    - 字幕
+        - 国外 https://www.opensubtitles.org/zh
+        - http://www.tvsubtitles.net/
+        - 国内 http://www.zimuku.cn/
+            - 经常删除我的字幕！！！
+    - 电影电视
+        - http://www.ttmeiju.vip/latest.html
+        - https://rarbg.is/torrents.php
+        - https://zooqle.com/    
