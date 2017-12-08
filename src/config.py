@@ -10,7 +10,7 @@ config.py:
 
 
 #百度api
-baidu_appid = 'xxx '
+baidu_appid = 'xx '
 baidu_secretKey = 'xxx'
 
 
