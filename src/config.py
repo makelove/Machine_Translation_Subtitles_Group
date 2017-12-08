@@ -11,7 +11,7 @@ config.py:
 
 #百度api
 baidu_appid = 'xx '
-baidu_secretKey = 'xxx'
+baidu_secretKey = 'xx x'
 
 
 #微软bing
