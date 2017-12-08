@@ -10,8 +10,8 @@ config.py:
 
 
 #百度api
-baidu_appid = 'xx '
-baidu_secretKey = 'xx x'
+baidu_appid = 'x x '
+baidu_secretKey = 'x x x'
 
 
 #微软bing
