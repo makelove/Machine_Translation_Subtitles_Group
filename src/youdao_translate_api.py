@@ -9,6 +9,7 @@ youdao_translate_api.py:
 """
 import requests,json
 
+#2017年底过期！
 url='http://fanyi.youdao.com/openapi.do?keyfrom=YCTSAPP&key=618284456&type=data&doctype=json&version=1.1&q='
 
 
