@@ -8,7 +8,8 @@
 subtitle_translate1.py:
 """
 import os,sys
-from translate_api import translate
+# from translate_api import translate
+from youdao_translate_api import translate
 from time import sleep
 import pysrt
 from bs4 import BeautifulSoup
