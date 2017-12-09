@@ -28,12 +28,12 @@
     - 日语 ？？
     - 
 - 资源下载
+    - 电影电视
+        - http://www.ttmeiju.vip/latest.html
+        - https://rarbg.is/torrents.php
+        - https://zooqle.com/    
     - 字幕
         - 国外 https://www.opensubtitles.org/zh
         - http://www.tvsubtitles.net/
         - 国内 http://www.zimuku.cn/
             - 经常删除我的字幕！！！
-    - 电影电视
-        - http://www.ttmeiju.vip/latest.html
-        - https://rarbg.is/torrents.php
-        - https://zooqle.com/    
