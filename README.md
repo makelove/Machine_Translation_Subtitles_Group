@@ -23,6 +23,11 @@
         - you-get
         - youtube-dl
     
+- 翻译API
+    - 百度,100万字限制
+    - 微软bing，麻烦，1元支付限1月
+    - 有道，要花钱
+    - Google，免费使用https://translate.google.cn
 - 支持语言
     - 英语
     - 日语 ？？
