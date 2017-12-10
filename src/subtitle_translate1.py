@@ -7,14 +7,18 @@
 """
 subtitle_translate1.py:
 """
-import os,sys
+import os, sys
 # from translate_api import translate
-from youdao_translate_api import translate
+# from youdao_translate_api import translate
+from googletrans import Translator
+
+translator = Translator()
+
 from time import sleep
 import pysrt
 from bs4 import BeautifulSoup
 
-if len(sys.argv)<2:
+if len(sys.argv) < 2:
     print('srt_path')
     sys.exit(-1)
 
@@ -25,7 +29,7 @@ if len(sys.argv)<2:
 # #
 # srt_path.split('/')
 # path=os.path.join(p_path,srt_file)
-path=sys.argv[1]
+path = sys.argv[1]
 if not path.endswith('.srt'):
     print('not srt !')
     # os._exit(-1)
@@ -42,7 +46,6 @@ for i, y in enumerate(subs):
     s1 = y.text.strip()
     sub = ' '.join(s1.split('\n'))
 
-
     soup = BeautifulSoup(sub, 'lxml')
     sub = soup.get_text()
     print(sub)
@@ -53,11 +56,13 @@ for i, y in enumerate(subs):
 
     # continue
     try:
-        tran = translate(sub, froml='en')
+        # tran = translate(sub, froml='en')
+        t = translator.translate(sub, src='en', dest='zh-cn')
+        tran = t.text
     except Exception as e:
-        print('Exception:',e)
+        print('Exception:', e)
         continue
-    print('---翻译:',tran)
+    print('---翻译:', tran)
     y.text = tran
 
     #
@@ -65,6 +70,6 @@ for i, y in enumerate(subs):
 
 # 另存为
 # out='/Users/play/Movies/t1/2.srt'
-out=path[:-4]+'-cn'+path[-4:]
+out = path[:-4] + '-cn' + path[-4:]
 subs.save(out, encoding='utf-8')
-print('另存为',out)
+print('另存为', out)
