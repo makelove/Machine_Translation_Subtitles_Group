@@ -10,6 +10,8 @@
 - 设置代理
     alias yd="youtube-dl --proxy http://127.0.0.1:1080"
 - 下载
+    - 音频+视频，分开，下载 #1080p
+        - yd -f 137+140 https://www.youtube.com/watch?v=B7wkzmZ4GBw
     - 同时下载视频和中文字幕,720p:-f 22
         - youtube-dl -f 22 --write-auto-sub --sub-lang zh-Hans https://www.youtube.com/watch?v=Rl77FVobxVI
     - 只下载中文字幕
