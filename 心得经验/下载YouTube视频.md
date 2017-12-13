@@ -10,8 +10,8 @@
 - 设置代理
     alias yd="youtube-dl --proxy http://127.0.0.1:1080"
 - 下载
-    - 音频+视频，分开，下载 #1080p
-        - yd -f 137+140 https://www.youtube.com/watch?v=B7wkzmZ4GBw
+    - 音频+视频，分开，下载 #1080p  #pass -k to keep
+        - youtube-dl -k -f 137+140 https://www.youtube.com/watch?v=B7wkzmZ4GBw
     - 下载一个视频mp3轨道，我们需要以下两个选项：
 
         - --extract-audio （短选项-x） -视频文件转换为纯音频文件。
