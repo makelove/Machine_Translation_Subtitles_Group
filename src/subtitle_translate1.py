@@ -8,7 +8,7 @@
 subtitle_translate1.py:
 """
 import os, sys
-# from translate_api import translate
+from translate_api import translate
 # from youdao_translate_api import translate
 from googletrans import Translator
 
@@ -57,8 +57,10 @@ for i, y in enumerate(subs):
     # continue
     try:
         # tran = translate(sub, froml='en')
-        t = translator.translate(sub, src='en', dest='zh-cn')
-        tran = t.text
+        tran = translate(sub, froml='spa')
+        # t = translator.translate(sub, src='en', dest='zh-cn')
+        # t = translator.translate(sub, src='es', dest='zh-cn')#spanish
+        # tran = t.text
     except Exception as e:
         print('Exception:', e)
         continue

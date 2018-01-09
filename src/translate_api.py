@@ -6,6 +6,9 @@
 
 """
 translate_api.py:
+语言列表
+源语言语种不确定时可设置为 auto，目标语言语种不可设置为 auto。
+http://api.fanyi.baidu.com/api/trans/product/apidoc
 """
 # import httplib
 # import md5
