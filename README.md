@@ -41,4 +41,4 @@
         - 国外 https://www.opensubtitles.org/zh
         - http://www.tvsubtitles.net/
         - 国内 http://www.zimuku.cn/
-            - 经常删除我的字幕！！！
+            

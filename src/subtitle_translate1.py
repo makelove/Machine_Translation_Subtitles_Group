@@ -56,8 +56,8 @@ for i, y in enumerate(subs):
 
     # continue
     try:
-        # tran = translate(sub, froml='en')
-        tran = translate(sub, froml='spa')
+        tran = translate(sub, froml='en')
+        # tran = translate(sub, froml='spa')
         # t = translator.translate(sub, src='en', dest='zh-cn')
         # t = translator.translate(sub, src='es', dest='zh-cn')#spanish
         # tran = t.text
