@@ -1,6 +1,6 @@
 # 下载字幕网站
 - 写爬虫
-    - 抓取-字幕库https://www.zimuku.cn/
+    - 抓取-字幕库https://www.zimuku.la/
     
     
 ```python
